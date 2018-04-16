@@ -28,7 +28,7 @@ def valid_phone_number?(phone)
     TRUE
   elsif phone.match(/\b(\+\d{1,2}\D)?\(?\d{3}\)?[\D.-]\d{7}\b/)
     TRUE
-  else phone.match(/\b(\+\d{1,2}\D)?\(?\d{10}\/)
+  else phone.match(/\b(\+\d{1,2}\D)?\(?\d{10}\b/)
     TRUE
   else
     FALSE
